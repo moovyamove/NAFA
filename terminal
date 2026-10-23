@@ -1,0 +1,11 @@
+# 1. Extraction
+mkdir nafa && tar -xzf nafa-source.tar.gz -C nafa && cd nafa
+
+# 2. Initialisation Git
+git init -b main
+git add .
+git commit -m "NAFA — app d'échange NGN ⇄ XOF (Next.js, Drizzle, PostgreSQL)"
+
+# 3. Lien avec ton repo GitHub (remplace TON-UTILISATEUR)
+git remote add origin https://github.com/TON-UTILISATEUR/nafa-transfer.git
+git push -u origin main
